@@ -4,5 +4,17 @@
   "main": "index",
   "dependencies": {
   	"hexo": "^3.1.1"
-  }
+  },
+  "keywords": [
+    "hexo",
+    "plugin",
+    "helper",
+    "post"
+  ],
+  "author": "CubeSky",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/cubesky/hexo-helper-post-top/issues"
+  },
+  "homepage": "https://github.com/cubesky/hexo-helper-post-top#readme"
 }
