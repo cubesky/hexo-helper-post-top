@@ -1,0 +1,8 @@
+{
+  "name": "hexo-helper-post-top",
+  "version": "0.0.1",
+  "main": "index",
+  "dependencies": {
+  	"hexo": "^3.1.1"
+  }
+}
