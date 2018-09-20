@@ -2,7 +2,7 @@
 'use strict';
 
 hexo.extend.helper.register('getposttop', function(posts) {
-  var havetop = posts.filter(function(data){return data.top!=null;});
+  var havetop = posts.filter(function(data){return data.top!=null && data.top;});
   var posts = havetop.sort("-date");
   if(posts.length>0){
     return posts;
